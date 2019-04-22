@@ -1,0 +1,682 @@
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "advancedDomains": [
+    "reddit.com"
+  ],
+  "censorCharacter": "*",
+  "censorFixedLength": 0,
+  "defaultSubstitution": "censored",
+  "defaultWordMatchMethod": 0,
+  "defaultWordRepeat": false,
+  "disabledDomains": [],
+  "filterMethod": 1,
+  "filterWordList": true,
+  "globalMatchMethod": 3,
+  "muteAudio": false,
+  "password": null,
+  "preserveCase": true,
+  "preserveFirst": true,
+  "preserveLast": false,
+  "showCounter": false,
+  "showSubtitles": 0,
+  "showSummary": false,
+  "substitutionMark": true,
+  "words": {
+        "cenz(u|ú)raverzi(o|ó)teszt": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "Szószedet: 1.1"
+    },
+    "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)hány(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqdd"
+    },
+    "hányás(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqd"
+    },
+    "hányinger(\\w|[áéíőúóüűö-]|\\b)+": {
+        "matchMethod": 4,
+        "repeat": false,
+        "sub": "adqd"
+      },
+        "hányva(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqd"
+    },
+    "hányadék(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqd"
+    },
+    
+    "hányt": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqd"
+    },
+      "hány(ni|unk|tok|nak|tat|tatunk|om|od|ia|nk|otok|iuk|nom|nod|nia|nunk|notok|niuk|nuk|na|ó)+(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqd"
+    },
+    "ahány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "amennyi"
+    },
+    "akárhány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "akármennyi"
+    },
+    "bárhány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "bármennyi"
+    },
+    "dohány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigaretta"
+    },
+    "hány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyi"
+    },
+    "hányad": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "rész"
+    },
+    "hányadára": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részére"
+    },
+    "hányadáról": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részéről"
+    },
+      "hányadát": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részét"
+    },
+    "hányadjára": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiedikre"
+    },
+  "hányadik": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiedik"
+    },
+    "hányadikától": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikortól"
+    },
+    "hányadikára": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikorra"
+    },
+    "hányadikáig": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "meddig"
+    },
+    "hányadika": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikor/dátum"
+    },
+    "hányadszor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiedikszer"
+    },
+    "hányszor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiszer"
+    },
+    "hányra": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyire"
+    },
+    "hánykor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyikor"
+    },
+    "hányból": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiből"
+    },
+    "hányattatott": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "nehéz"
+    },
+    "hánykolódik": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "szenved"
+    },
+    "hányszor": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiszer"
+    },
+    "hányadszorra": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiedikre"
+    },
+    "jónéhány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "sok"
+    },
+    "néhány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "pár"
+    },
+    "valahány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "valamennyi"
+    }, 
+    "hánytorgat": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "emleget"
+    }, 
+        "émelyeg": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "émelyg": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)*öklendez(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)*okád(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)*taccs(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)*csandáz(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "(abba|fölé|meg|agyon|hátra|mellé|alá|hátul|mögé|által|haza|neki|alul|helyre|oda|át|hozzá|össze|be|ide|rá|bele|belé|jóvá|rajta|belül|keresztül|rendbe|benn|bent|ketté|sorba|egybe|ki|szembe|együtt|kinn|kint|szerte|el|kívül|szét|széjjel|elé|kölcsön|tele|teli|ellen|körbe|tova|elő|köré|tönkre|elől|körül|túl|előre|közbe|újjá|észre|közé|újra|fel|föl|közzé|utána|félbe|külön|utol|felé|le|végig|félre|lent|végre|felül|fölül|létre|vissza|fenn|fent|fönn|fönt)*rókáz(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },        
+    "bokákol(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+        "bokakol(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "adqd"
+    },
+           "vomit(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqdd"
+    },
+           "throw(s|ing|n)* up": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqdd"
+    },
+           "puke(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "adqdd"
+    },
+        "tűzhányó": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "vulkán"
+    },
+        "tuzhanyo": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "vulkán"
+    },
+        "hanyas(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyi-es"
+    },
+    
+        "hanyozacsko(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "asqs"
+    },
+        "hanyinger(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+        "hanyva(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+        "hanyadek(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+        "hany(ni|unk|tok|nak|tat|tatunk|om|od|ia|nk|otok|iuk|nom|nod|nia|nunk|notok|niuk|nuk|na)+(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+    "(meg|agyon|melle|moge|oda|at|hozza|ossze|be|ide|ra|bele|bele|keresztul|rendbe|kette|sorba|egybe|ki|szerte|el|kivul|szet|szejjel|ele|tele|teli|korbe|kore|korul|koze|le|vegig|felre|lent|vegre|felul|folul|letre|vissza|fenn|fent|fonn|font)+hany(?!agol)(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    }, 
+    "lehany(nom|nod|nia|nunk|notok|niuk|ni|hat|ja|jatok|jak|juk)": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    }, 
+        "tihany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "tihany"
+    },
+        "emelyeg": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+        "(abba|fole|meg|agyon|hatra|melle|ala|hatul|moge|altal|haza|neki|alul|helyre|oda|at|hozza|ossze|be|ide|ra|bele|bele|jova|rajta|belul|keresztul|rendbe|benn|bent|kette|sorba|egybe|ki|szembe|egyutt|kinn|kint|szerte|el|kivul|szet|szejjel|ele|kolcson|tele|teli|ellen|korbe|tova|elo|kore|tonkre|elol|korul|tul|elore|kozbe|ujja|eszre|koze|ujra|fel|fol|kozze|utana|felbe|kulon|utol|fele|le|vegig|felre|lent|vegre|felul|folul|letre|vissza|fenn|fent|fonn|font)*oklendez(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+     "(abba|fole|meg|agyon|hatra|melle|ala|hatul|moge|altal|haza|neki|alul|helyre|oda|at|hozza|ossze|be|ide|ra|bele|bele|jova|rajta|belul|keresztul|rendbe|benn|bent|kette|sorba|egybe|ki|szembe|egyutt|kinn|kint|szerte|el|kivul|szet|szejjel|ele|kolcson|tele|teli|ellen|korbe|tova|elo|kore|tonkre|elol|korul|tul|elore|kozbe|ujja|eszre|koze|ujra|fel|fol|kozze|utana|felbe|kulon|utol|fele|le|vegig|felre|lent|vegre|felul|folul|letre|vissza|fenn|fent|fonn|font)+okad": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+     "okad(ni|na|nom|nod|nia|nunk|notok|nuk|niuk)(?!pos)": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+        "(abba|fole|meg|agyon|hatra|melle|ala|hatul|moge|altal|haza|neki|alul|helyre|oda|at|hozza|ossze|be|ide|ra|bele|bele|jova|rajta|belul|keresztul|rendbe|benn|bent|kette|sorba|egybe|ki|szembe|egyutt|kinn|kint|szerte|el|kivul|szet|szejjel|ele|kolcson|tele|teli|ellen|korbe|tova|elo|kore|tonkre|elol|korul|tul|elore|kozbe|ujja|eszre|koze|ujra|fel|fol|kozze|utana|felbe|kulon|utol|fele|le|vegig|felre|lent|vegre|felul|folul|letre|vissza|fenn|fent|fonn|font)+rokaz(\\w|[áéíőúóüűö-]|\\b)+": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },    
+        "rokaz(nom|nod|nia|nunk|notok|niuk|ni|hat|n)": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "aqsq"
+    },
+    "\\bahany\\b": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "amennyi"
+    },
+    "akarhany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "akarmennyi"
+    },
+    "barhany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "barmennyi"
+    },
+    "dohany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigaretta"
+    },
+    "\\bhany\\b": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyi"
+    },
+    "hanyadara": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részére"
+    },
+    "hanyadarol": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részéről"
+    },
+      "hanyadat": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részét"
+    },
+    "hanyadjara": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiedikre"
+    },
+  "hanyadik": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiedik"
+    },
+    "hanyadikatol": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikortól"
+    },
+    "hanyadikara": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikorra"
+    },
+    "hanyadikaig": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "meddig"
+    },
+    "hanyadika": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mikor/dátum"
+    },
+    "hanyadszor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiedikszer"
+    },
+    "hanyszor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiszer"
+    },
+    "hanyra": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyire"
+    },
+    "hanykor": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyikor"
+    },
+    "hanybol": {
+      "matchMethod": 4,
+      "repeat": false,
+      "sub": "mennyiből"
+    },
+    "hanyattatott": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "nehéz"
+    },
+    "hanykolodik": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "szenved"
+    },
+    "hanyszor": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiszer"
+    },
+    "hanyadszorra": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyiedikre"
+    },
+    "jonehany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "sok"
+    },
+    "nehany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "pár"
+    },
+    "valahany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "valamennyi"
+    }, 
+    "hanytorgat": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "emleget"
+    },
+       "dohányos": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázó"
+    },
+      "dohanyos": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázó"
+    },
+      "dohányosok": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázók"
+    },
+       "dohanyosok": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázók"
+    },
+    
+       "hányat": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyit"
+    },
+       "hányada": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "része"
+    },
+       "hanyada": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "része"
+    },
+       "hányadának": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részének"
+    },
+       "hanyadanak": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "részének"
+    },
+       "hányan": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyien"
+    },
+       "hanyan": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "mennyien"
+    },
+       "hányatott": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "nehéz"
+    },
+       "hanyatott": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "nehéz"
+    },
+      "trehány": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "lusta"
+    },
+       "trehany": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "lusta"
+    }, 
+      "dohányozni": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázni"
+    },
+      "dohanyozni": {
+      "matchMethod": 4,
+      "repeat": true,
+      "sub": "cigarettázni"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
