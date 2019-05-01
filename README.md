@@ -9,11 +9,12 @@ Csak Firefox böngészővel (de annak mind az asztali, mind a mobil változatáv
 Chrome változatot is találtam ugyan ettől a fejlesztőtől, de ugyan ennek a listának a beillesztésekor hibát dob ki, amit valószínűleg nem túl bonyolult orvosolni, de némi utánajárás szükséges.
 ## Telepítése, használata
 A szükséges firefox plugin és a szószedet telepítése megtalálható az alábbi videón is:
-https://youtu.be/Om_gfVB26HI
+https://youtu.be/DeXu1izl5DA
 
 * Első lépés az egész alapjául szolgáló Firefox kiegészítő telepítése az alábbi linkről: https://addons.mozilla.org/hu/firefox/addon/advanced_profanity_filter/
 * Ezután a kiegészítő szószedet beállításaihoz kell eljutni (add-ons / advanced profanity filter / options / config), majd kipipálva megjeleníteni az inline editort-t.
 * Ennek a szövegmezőjébe kell beilleszteni az ezen a lapon, fent található Szószedet.txt teljes tartalmát – a file elején és végén található sok üres sor arra szolgál, hogy se beillesztés előtt, se után ne kelljen a tényleges szószedetet látni (a file-ra rámenve, raw-t kiválasztva már a teljes szöveg görgetés nélkül egyben kijelölhető, a fent csatolt videóban jól látszik)
+* Célszerű a beviteli mező méretét beillesztés után apróra venni (a jobb alsó sarokból felhúzva), mert az importálás után a lista végén az üresen hagyott sorok eltűnnek, és rálátni a lista végére.
 * Ezek után import / ok / ok, és elvileg működik is a cenzúrázás, amit a felső ikonsorból egy csúszkával ki-be lehet kapcsolni.
 * A „Test” menüpont szövegmezőjében ki lehet próbálni az egészet, de hogy ne kelljen ténylegesen olyan szavakon tesztelni, bekerült egy plusz szűrendő kifejezés: „cenzúraverzióteszt”-re a szószedet aktuális verziószámát írja ki.
 * A kiszűrt, lecserélt szavakat [ ] közé rakja
